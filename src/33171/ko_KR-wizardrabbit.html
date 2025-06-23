@@ -1,0 +1,82 @@
+<section id="title">양자택일</section>
+<section id="description">
+  <div class="headline">
+    <h2>문제</h2>
+  </div>
+  <div id="problem_description" class="problem-text">
+    <p>양의 정수 $N$, $A$, $B$가 주어진다. 이 때 $A \neq B$이다.</p>
+    <p>
+      $1$ 이상 $N$ 이하의 정수 중 $A$와 $B$의 어느 한쪽으로만 나누어 떨어지는
+      정수의 개수를 출력하는 프로그램을 작성하시오.
+    </p>
+  </div>
+</section>
+<section id="input">
+  <div class="headline">
+    <h2>입력</h2>
+  </div>
+  <div id="problem_input" class="problem-text">
+    <p>입력은 아래와 같이 주어진다.</p>
+    <blockquote>
+      <p>$N$</p>
+      <p>$A$</p>
+      <p>$B$</p>
+    </blockquote>
+  </div>
+</section>
+<section id="output">
+  <div class="headline">
+    <h2>출력</h2>
+  </div>
+  <div id="problem_output" class="problem-text">
+    <p>
+      문제의 정답을 하나의 정수로 출력한다.
+    </p>
+  </div>
+</section>
+<section id="limit">
+  <div class="headline">
+    <h2>제한</h2>
+  </div>
+  <div id="problem_limit" class="problem-text">
+    <ul>
+      <li>$1 \le N, A, B \le 100$</li>
+      <li><var>$A \neq B$</li>
+      <li>입력으로 주어지는 수는 모두 정수</li>
+    </ul>
+  </div>
+</section>
+<section id="sample_explain_1">
+  <div id="problem_sample_explain_1" class="problem-text">
+    <ul>
+      <li>$1$은 $2$, $3$ 두 수 중 어느 쪽으로도 나누어 떨어지지 않는다.</li>
+      <li>$2$는 $2$로만 나누어 떨어진다.</li>
+      <li>$3$은 $3$으로만 나누어 떨어진다.</li>
+      <li>$4$는 $2$로만 나누어 떨어진다.</li>
+      <li>$5$는 $2$, $3$ 두 수 중 어느 쪽으로도 나누어 떨어지지 않는다.</li>
+      <li>$6$은 $2$, $3$으로 모두 나누어 떨어진다.</li>
+    </ul>
+    <p>
+      따라서 $1$ 이상 $6$ 이하의 정수 중 $2$와 $3$의 어느 한쪽으로만 나누어 떨어지는
+      정수는 $2$, $3$, $4$로 $3$개이다. 따라서 $3$을 출력한다.
+    </p>
+  </div>
+</section>
+<section id="sample_explain_2">
+  <div id="problem_sample_explain_2" class="problem-text">
+    <ul>
+      <li>$1$은 $5$, $3$ 두 수 중 어느 쪽으로도 나누어 떨어지지 않는다.</li>
+    </ul>
+    <p>
+      따라서 $1$ 이상 $1$ 이하의 정수 중 $5$와 $3$의 어느 한쪽으로만 나누어 떨어지는
+      정수는 존재하지 않는다. 따라서 $0$을 출력한다.
+    </p>
+  </div>
+</section>
+<section id="sample_explain_3">
+  <div id="problem_sample_explain_3" class="problem-text">
+    <p>
+      $1$ 이상 $100$ 이하의 정수 중 $1$과 $2$의 어느 한쪽으로만 나누어 떨어지는 정수는 범위 내의 모든 홀수이므로 $50$을 출력한다.
+    </p>
+  </div>
+</section>
